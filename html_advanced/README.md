@@ -20,7 +20,7 @@ At the end of this project, we are expected to be able to explain those concepts
 
 As said before, we have a designed template to respect :
 
-![Template](/holbertonschool-web-development/html_advanced/assets/rendu.png)
+![Template](/holbertonschool-web-development/css_advanced/assets/rendu.png)
 
 ### Author
 

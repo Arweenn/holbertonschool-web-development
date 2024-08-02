@@ -63,7 +63,6 @@ body {
 #banner {
     width: 100%;
     min-height: 1250px;
-
     background: radial-gradient(ellipse at 30% 18.1%, rgba(41, 48, 61, 0.00) 0%, var(--secondary-color) 68%);
     background-blend-mode: normal, color;
     background-size: cover;
@@ -71,7 +70,7 @@ body {
 }
 
 #banner::before {
-    background: url(./assets/img/main_background.png);
+    background: url(./assets/background.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -305,7 +304,6 @@ blockquote p {
 .video__2 img,
 .video__3 img,
 .video__4 img {
-    width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
 
@@ -367,9 +365,10 @@ blockquote p {
 
 
 .video__author img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 /*membership*/
@@ -425,7 +424,7 @@ blockquote p {
 .membership__2 img,
 .membership__3 img,
 .membership__4 img {
-    width: 100%;
+    width: 40%;
     height: auto;
     border-radius: 10px 10px 0 0;
 
